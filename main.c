@@ -28,7 +28,7 @@ void caesarCipher(char * plainText, int key);
 
 int main(void){
   int key = 1;
-  char plaintext[101];
+  char plainText[101];
   
   // Ask user 
   printf("Enter plain text to encrypt: ");
@@ -43,7 +43,7 @@ int main(void){
 }
 
   
-void caesarCipher(char* plaintext, int key){
+void caesarCipher(char * plainText, int key){
   int i=0;
   int cypherValue;
   char cypher;
