@@ -4,5 +4,5 @@ Run in terminal:
 - gcc main.c -o main
 - ./main
 
-![picture alt](https://images-gmi-pmc.edge-generalmills.com/850feb4b-c3e9-42e8-baa7-c6af170161db.jpg "I will make you the tastiest caesar salad")
+![picture alt](https://images-gmi-pmc.edge-generalmills.com/850feb4b-c3e9-42e8-baa7-c6af170161db.jpg "The tastiest caesar salad you've ever laid eyes on")
 
