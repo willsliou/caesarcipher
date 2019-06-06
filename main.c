@@ -24,7 +24,7 @@
 #include<stdlib.h>
 
 // Define Caesar Cipher Function
-void caesarCipher(char* plaintext, int key);
+void caesarCipher(char * plainText, int key);
 
 int main(void){
   int key = 1;
@@ -35,7 +35,9 @@ int main(void){
   // Get input, store in plainText variable
   fgets(plainText, sizeof(plainText, stdin); 
   
+  // Print cipher text
   printf("The ciphered text is: ");
+  void caesarCipher(plainText, key);
   
   //system("pause") comment out if using macOS
 }
@@ -50,5 +52,10 @@ void caesarCipher(char* plaintext, int key){
     cypherValue = ((int)plainText[i] -97 + key) % 26 + 97 // ASCII - 'a'=97
     cypher = (char)(cypherValue);
     
+    // Print characters
+    printf("%c", cypher); 
+    i++;
   }
+  // New line cuz OCD
+  printf("\n");
 }
