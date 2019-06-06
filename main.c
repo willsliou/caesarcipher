@@ -31,7 +31,7 @@ int main(void){
   char plaintext[101];
   
   // Ask user 
-  print("Enter plain text to encrypt: ");
+  printf("Enter plain text to encrypt: ");
   // Get input, store in plainText variable
   fgets(plainText, sizeof(plainText, stdin); 
   
